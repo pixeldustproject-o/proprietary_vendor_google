@@ -47,5 +47,6 @@ PRODUCT_PACKAGES += \
     VZWAVS \
     VzwLcSilent \
     VzwOmaTrigger \
+    qcrilmsgtunnel \
     VerizonUnifiedSettings \
     com.google.android.camera.experimental2016
