@@ -26,6 +26,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/etc/permissions/com.verizon.provider.xml:system/etc/permissions/com.verizon.provider.xml \
     vendor/google/marlin/proprietary/etc/permissions/privapp-permissions-marlin.xml:system/etc/permissions/privapp-permissions-marlin.xml \
     vendor/google/marlin/proprietary/etc/permissions/vzw_sso_permissions.xml:system/etc/permissions/vzw_sso_permissions.xml \
+    vendor/google/marlin/proprietary/etc/permissions/com.verizon.llkagent.xml:system/etc/permissions/com.verizon.llkagent.xml \
+    vendor/google/marlin/proprietary/etc/permissions/com.verizon.services.xml:system/etc/permissions/com.verizon.services.xml \
+    vendor/google/marlin/proprietary/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
+    vendor/google/marlin/proprietary/etc/permissions/privapp-permissions-platform.xml:system/etc/permissions/privapp-permissions-platform.xml \
     vendor/google/marlin/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/google/marlin/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/google/marlin/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
