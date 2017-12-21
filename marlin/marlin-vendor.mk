@@ -56,7 +56,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/google/marlin/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/google/marlin/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
-    vendor/google/marlin/proprietary/lib64/librcc.so:system/lib64/librcc.so
+    vendor/google/marlin/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/google/marlin/proprietary/priv-app/embms/oem/config_params.xml:system/priv-app/embms/oem/config_params.xml \
+    vendor/google/marlin/proprietary/priv-app/embms/oem/provisioning_params.xml:system/priv-app/embms/oem/provisioning_params.xml \
+    vendor/google/marlin/proprietary/priv-app/embms/oem/verizon_config_params.txt:system/priv-app/embms/oem/verizon_config_params.txt
 
 # Prebuilt APKs/JARs from 'proprietary/app'
 PRODUCT_PACKAGES += \
@@ -91,6 +94,24 @@ PRODUCT_PACKAGES += \
     obdm_stub \
     qcrilmsgtunnel \
     com.google.android.camera.experimental2016
+
+# Prebuilt APKs/JARs from 'vendor/app'
+PRODUCT_PACKAGES += \
+    QtiTelephonyService \
+    RCSBootstraputil \
+    SSRestartDetector \
+    SecureExtAuthService \
+    TimeService \
+    atfwd \
+    colorservice \
+    datastatusnotification \
+    embms \
+    fastdormancy \
+    ims \
+    imssettings \
+    radioconfig \
+    shutdownlistener \
+    vzw_msdc_api
 
 # Prebuilt APKs libs symlinks from 'proprietary/priv-app'
 PRODUCT_PACKAGES += \
